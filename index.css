@@ -1,0 +1,74 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family:sans-serif;
+}
+
+.head{
+	color: ;
+	padding: 1%;
+	margin: 0.2%;
+}
+.center{
+	text-align: center;
+
+}
+input[type=text]{
+  border: 3px solid red;
+}
+.neelu{
+/*	border: 2px solid black;*/
+	padding: 2%;
+	margin: 5%;
+	width: 80%;
+}
+.neelu1 input{
+	padding: 1%;
+	margin: 0.5%;
+	width: 40%;
+	font-weight: bold;
+/*	background-color: white;*/
+}
+.btnn{
+	background-color: blue;
+	width: 15.1%;
+	padding: 1%;
+	margin: 0.5%;
+	font-weight:700;
+	color: white;
+}
+.btnn:hover{
+	background-color:darkblue;
+	color: white;
+}
+.link{
+	font-weight: bold;
+
+}
+.link a{
+	text-decoration: none;
+	font-weight: bold;
+}
+@media only screen and (max-width:960px){
+	.neelu{
+		width: 80%;
+	}
+}
+.blink{
+	animation:blinkingText 1.1s infinite;
+	font-weight: 700;
+}
+@keyframes blinkingText{
+	0%{ color:red; }
+	30%{ color:brown; }
+	49%{ color:green; }
+	55%{ color:yellowgreen; }
+	60%{ color:blue; }
+	70%{ color:yellow; }
+	80%{ color:pink; }
+	99%{ color:orange; }
+
+
+}
